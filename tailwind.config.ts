@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				danger: 'hsl(var(--danger))',
+				warning: 'hsl(var(--warning))',
+				success: 'hsl(var(--success))',
+				stealth: 'hsl(var(--stealth))',
+				blood: 'hsl(var(--blood))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +89,52 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-danger': {
+					'0%, 100%': {
+						boxShadow: '0 0 20px hsl(var(--danger) / 0.6)'
+					},
+					'50%': {
+						boxShadow: '0 0 40px hsl(var(--danger) / 0.8)'
+					}
+				},
+				'stealth-glow': {
+					'0%, 100%': {
+						opacity: '0.3'
+					},
+					'50%': {
+						opacity: '0.7'
+					}
+				},
+				'blood-drip': {
+					'0%': {
+						transform: 'translateY(-100%)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'translateY(100vh)',
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-danger': 'pulse-danger 2s ease-in-out infinite',
+				'stealth-glow': 'stealth-glow 3s ease-in-out infinite',
+				'blood-drip': 'blood-drip 1s ease-in'
+			},
+			backgroundImage: {
+				'gradient-danger': 'var(--gradient-danger)',
+				'gradient-stealth': 'var(--gradient-stealth)',
+				'gradient-glow': 'var(--gradient-glow)'
+			},
+			boxShadow: {
+				'danger': 'var(--shadow-danger)',
+				'stealth': 'var(--shadow-stealth)'
+			},
+			fontFamily: {
+				'comic': ['Comic Sans MS', 'cursive']
 			}
 		}
 	},
