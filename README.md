@@ -1,4 +1,6 @@
-# Welcome to your Lovable project
+# ASSASSIN
+
+A 3D stealth game in the browser. Sneak behind targets and eliminate them without being detected.
 
 <!-- live-links -->
 **Live:** [gitguy268.github.io/silent-strike-web](https://gitguy268.github.io/silent-strike-web/) · [silent-strike-web.vercel.app](https://silent-strike-web.vercel.app)
