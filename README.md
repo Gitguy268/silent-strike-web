@@ -1,5 +1,9 @@
 # Welcome to your Lovable project
 
+<!-- live-links -->
+**Live:** [gitguy268.github.io/silent-strike-web](https://gitguy268.github.io/silent-strike-web/) · [silent-strike-web.vercel.app](https://silent-strike-web.vercel.app)
+<!-- /live-links -->
+
 <!-- run-steps:start -->
 ## Run it locally, step by step
 
